@@ -14,14 +14,15 @@ This project is made as na API appliaction in .NET 5 and it provides reviews for
 - Limited access to content
 - Sending email (even though it's commented out beacuse of Google policy)
 
-##Description
+## Description
 - Users can login and register, as well as leave a review and rating for a play
 - Plays can be searched for by year, title, duration, genre or actos
 - Reviews can be searched for by title, text of the review, play the review is about and rating
 
-##Database diagram
+## Database diagram
+![Database](database-diagram.png)
 
-##Reproduction steps
+## Reproduction steps
 - Make a database _BroadwayReview_ in SSMS if not using the script provided
 - In DataAccess Project change the connection string to match yours
 - Migrate and Update Database
